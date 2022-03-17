@@ -1,12 +1,11 @@
-type Job {
+// Job Interface
+export interface Job {
   title: string
   location: string
   description: string
-  technologies: array
+  technologies: Array<string>
   experience: string
   postedDate: string
   responsibilites: string
   companyName: string
 }
-
-export default Job;
